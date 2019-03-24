@@ -1,5 +1,3 @@
-require("@babel/polyfill");
-
 import axios from "axios";
 
 const req = axios.create({ baseURL: "https://api.github.com/users/" });
